@@ -1,0 +1,194 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="stdafx.cpp" />
+    <ClCompile Include="App\app.cpp">
+      <Filter>API</Filter>
+    </ClCompile>
+    <ClCompile Include="App\main.cpp">
+      <Filter>API</Filter>
+    </ClCompile>
+    <ClCompile Include="App\SimpleController.cpp">
+      <Filter>API</Filter>
+    </ClCompile>
+    <ClCompile Include="App\SimpleSound.cpp">
+      <Filter>API</Filter>
+    </ClCompile>
+    <ClCompile Include="App\SimpleSprite.cpp">
+      <Filter>API</Filter>
+    </ClCompile>
+    <ClCompile Include="stb_image\stb_image.cpp">
+      <Filter>stb_image</Filter>
+    </ClCompile>
+    <ClCompile Include="Physics.cpp">
+      <Filter>Physics Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="PhysicsEntity.cpp">
+      <Filter>Physics Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="SlingShot.cpp">
+      <Filter>Physics Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="Utils.h">
+      <Filter>Utilities</Filter>
+    </ClCompile>
+    <ClCompile Include="Mail.cpp">
+      <Filter>GameObjects\Player</Filter>
+    </ClCompile>
+    <ClCompile Include="MailBox.cpp">
+      <Filter>GameObjects\WinConidition</Filter>
+    </ClCompile>
+    <ClCompile Include="Block.cpp">
+      <Filter>GameObjects\Blocks</Filter>
+    </ClCompile>
+    <ClCompile Include="SlippyBlock.cpp">
+      <Filter>GameObjects\Blocks</Filter>
+    </ClCompile>
+    <ClCompile Include="Wall.cpp">
+      <Filter>GameObjects\Walls</Filter>
+    </ClCompile>
+    <ClCompile Include="PhysicsBlock.cpp">
+      <Filter>GameObjects\Blocks</Filter>
+    </ClCompile>
+    <ClCompile Include="SpriteManager.cpp">
+      <Filter>Utilities</Filter>
+    </ClCompile>
+    <ClCompile Include="KeyBoardInputHandler.h">
+      <Filter>Utilities</Filter>
+    </ClCompile>
+    <ClCompile Include="StartButton.cpp">
+      <Filter>GameObjects\Buttons</Filter>
+    </ClCompile>
+    <ClCompile Include="QuitButton.cpp">
+      <Filter>GameObjects\Buttons</Filter>
+    </ClCompile>
+    <ClCompile Include="UserInterface.cpp">
+      <Filter>Utilities</Filter>
+    </ClCompile>
+    <ClCompile Include="BouncyBlock.cpp">
+      <Filter>GameObjects\Blocks</Filter>
+    </ClCompile>
+    <ClCompile Include="GameTest.cpp" />
+    <ClCompile Include="TeleportBlock.cpp">
+      <Filter>GameObjects\Blocks</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="stdafx.h" />
+    <ClInclude Include="App\app.h">
+      <Filter>API</Filter>
+    </ClInclude>
+    <ClInclude Include="App\AppSettings.h">
+      <Filter>API</Filter>
+    </ClInclude>
+    <ClInclude Include="App\main.h">
+      <Filter>API</Filter>
+    </ClInclude>
+    <ClInclude Include="App\SimpleController.h">
+      <Filter>API</Filter>
+    </ClInclude>
+    <ClInclude Include="App\SimpleSound.h">
+      <Filter>API</Filter>
+    </ClInclude>
+    <ClInclude Include="App\SimpleSprite.h">
+      <Filter>API</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>API</Filter>
+    </ClInclude>
+    <ClInclude Include="stb_image\stb_image.h">
+      <Filter>stb_image</Filter>
+    </ClInclude>
+    <ClInclude Include="Physics.h">
+      <Filter>Physics Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="Collision.h">
+      <Filter>Physics Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="PhysicsEntity.h">
+      <Filter>Physics Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="MyMath.h">
+      <Filter>Utilities</Filter>
+    </ClInclude>
+    <ClInclude Include="Enums.h">
+      <Filter>Utilities</Filter>
+    </ClInclude>
+    <ClInclude Include="SlingShot.h">
+      <Filter>Physics Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="Mail.h">
+      <Filter>GameObjects\Player</Filter>
+    </ClInclude>
+    <ClInclude Include="MailBox.h">
+      <Filter>GameObjects\WinConidition</Filter>
+    </ClInclude>
+    <ClInclude Include="Block.h">
+      <Filter>GameObjects\Blocks</Filter>
+    </ClInclude>
+    <ClInclude Include="SlippyBlock.h">
+      <Filter>GameObjects\Blocks</Filter>
+    </ClInclude>
+    <ClInclude Include="Wall.h">
+      <Filter>GameObjects\Walls</Filter>
+    </ClInclude>
+    <ClInclude Include="PhysicsBlock.h">
+      <Filter>GameObjects\Blocks</Filter>
+    </ClInclude>
+    <ClInclude Include="SpriteManager.h">
+      <Filter>Utilities</Filter>
+    </ClInclude>
+    <ClInclude Include="StartButton.h">
+      <Filter>GameObjects\Buttons</Filter>
+    </ClInclude>
+    <ClInclude Include="QuitButton.h">
+      <Filter>GameObjects\Buttons</Filter>
+    </ClInclude>
+    <ClInclude Include="UserInterface.h">
+      <Filter>Utilities</Filter>
+    </ClInclude>
+    <ClInclude Include="BouncyBlock.h">
+      <Filter>GameObjects\Blocks</Filter>
+    </ClInclude>
+    <ClInclude Include="TeleportBlock.h">
+      <Filter>GameObjects\Blocks</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="stb_image">
+      <UniqueIdentifier>{61cfc19b-c57e-4021-b530-bac172fcba86}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="API">
+      <UniqueIdentifier>{f318918d-bb9f-4402-ae1c-4f72186d16f6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Utilities">
+      <UniqueIdentifier>{2fcd760b-7837-4614-b1fc-94b754de66ed}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Physics Engine">
+      <UniqueIdentifier>{2a642c63-031e-4082-8722-f1b8442f2db2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameObjects">
+      <UniqueIdentifier>{08944e4a-f3c4-4e48-9fc4-5ffd031c040b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameObjects\Player">
+      <UniqueIdentifier>{0848821c-33ce-444d-8a16-8e9a02d05f4a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameObjects\WinConidition">
+      <UniqueIdentifier>{b688808f-88e0-49f4-8678-d4949ae05ffa}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameObjects\Blocks">
+      <UniqueIdentifier>{cc0998a1-8a12-4745-848c-f9bf76a934a2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameObjects\Walls">
+      <UniqueIdentifier>{40feaa06-4792-4a84-8762-85eecdd96eb0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameObjects\Buttons">
+      <UniqueIdentifier>{465a06a0-9f7a-4f7b-885f-6f0f0d298f22}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="ReadMe.txt">
+      <Filter>API</Filter>
+    </Text>
+  </ItemGroup>
+</Project>

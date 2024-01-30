@@ -1,0 +1,38 @@
+﻿  stdafx.cpp
+  app.cpp
+  main.cpp
+  SimpleController.cpp
+  SimpleSound.cpp
+  SimpleSprite.cpp
+  Block.cpp
+  BouncyBlock.cpp
+  PhysicsBlock.cpp
+  GameTest.cpp
+C:\Users\Ernie\OneDrive\Desktop\NEXT_2023-2024_Programming_ErnieBurrows 1\NEXT_2023-2024_Programming_ErnieBurrows\API\GameTest\Collision.h(134,21): warning C4804: '>': unsafe use of type 'bool' in operation
+C:\Users\Ernie\OneDrive\Desktop\NEXT_2023-2024_Programming_ErnieBurrows 1\NEXT_2023-2024_Programming_ErnieBurrows\API\GameTest\Utils.h(61,63): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+  KeyBoardInputHandler.h
+  QuitButton.cpp
+  SpriteManager.cpp
+  Mail.cpp
+C:\Users\Ernie\OneDrive\Desktop\NEXT_2023-2024_Programming_ErnieBurrows 1\NEXT_2023-2024_Programming_ErnieBurrows\API\GameTest\Utils.h(61,63): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+  MailBox.cpp
+  SlippyBlock.cpp
+  StartButton.cpp
+  TeleportBlock.cpp
+  UserInterface.cpp
+  Utils.h
+C:\Users\Ernie\OneDrive\Desktop\NEXT_2023-2024_Programming_ErnieBurrows 1\NEXT_2023-2024_Programming_ErnieBurrows\API\GameTest\Utils.h(61,63): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+  Physics.cpp
+C:\Users\Ernie\OneDrive\Desktop\NEXT_2023-2024_Programming_ErnieBurrows 1\NEXT_2023-2024_Programming_ErnieBurrows\API\GameTest\Collision.h(134,21): warning C4804: '>': unsafe use of type 'bool' in operation
+  Generating Code...
+  Compiling...
+  PhysicsEntity.cpp
+  SlingShot.cpp
+C:\Users\Ernie\OneDrive\Desktop\NEXT_2023-2024_Programming_ErnieBurrows 1\NEXT_2023-2024_Programming_ErnieBurrows\API\GameTest\Utils.h(61,63): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+  stb_image.cpp
+  Wall.cpp
+C:\Users\Ernie\OneDrive\Desktop\NEXT_2023-2024_Programming_ErnieBurrows 1\NEXT_2023-2024_Programming_ErnieBurrows\API\GameTest\Wall.cpp(32,29): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+  Generating Code...
+  GameTest.vcxproj -> C:\Users\Ernie\OneDrive\Desktop\NEXT_2023-2024_Programming_ErnieBurrows 1\NEXT_2023-2024_Programming_ErnieBurrows\API\x64\Debug\GameTest.exe
+  C:\Users\Ernie\OneDrive\Desktop\NEXT_2023-2024_Programming_ErnieBurrows 1\NEXT_2023-2024_Programming_ErnieBurrows\API\\GameTest\glut\bin\x64\freeglut.dll
+  1 File(s) copied
